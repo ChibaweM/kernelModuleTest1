@@ -79,6 +79,12 @@ static int dev_open(struct inode *inodep,struct file *filep){
 	return 0;
 }
 
+
+
+
+
+
+
 static int dev_release(struct inode *inodep, struct file *filep){
 	printk(KERN_INFO "TestChar: Deviece successfullly closed\n");
 	return 0;
